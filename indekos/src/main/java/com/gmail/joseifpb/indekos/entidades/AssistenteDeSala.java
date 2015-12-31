@@ -3,16 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entidades;
+package com.gmail.joseifpb.indekos.entidades;
 
 /**
  *
  * @author José
  */
-public class AlunoMonitor {
+public class AssistenteDeSala {
      private Usuario Usuario;
 
-    public AlunoMonitor(Usuario Usuario) {
+    public AssistenteDeSala(Usuario Usuario) {
         this.Usuario = Usuario;
     }
 
