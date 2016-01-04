@@ -8,6 +8,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form name="form1" action="/ServletTeste" method="POST">
+            <input type="text" name="nome" value="" size="30" />
+            <input type="submit" value="enviar" name="enviar" />
+        </form>
     </body>
 </html>
