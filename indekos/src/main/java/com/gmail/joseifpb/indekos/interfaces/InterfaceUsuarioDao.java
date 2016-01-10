@@ -19,7 +19,7 @@ public interface InterfaceUsuarioDao {
 
 	public boolean editar(Usuario usuario);
 
-	public Usuario login(String email, String senha);
+	public Usuario login(String email, String senha);//criei o login com matricula
         
          public List<Usuario> buscaTotosUsuarios();
          
